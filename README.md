@@ -14,6 +14,7 @@ An experimental side project which uses a python file to dump functions defined 
 ## Bugs
 - For now, the program skips some functions due to some formatting bugs.
 - The program also skips some functions with custom return types.
+- THe program does not parse arguments in functions, so the `params` field is left empty in the JSON.
 
 ## Purpose
 - This project was utilized to dump (nearly) every single C standard library function defined on linux in a JSON.
