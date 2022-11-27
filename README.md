@@ -1,5 +1,5 @@
 # LinuxManDumper
-An experimental side project which uses a python file to dump (nearly) every single C library function defined in the linux api inside a structured JSON file.
+An experimental side project which uses a python file to dump (nearly) every single C standard library function defined in the linux api inside a structured JSON file.
 
 ## Usage
 To use the parser you must:
