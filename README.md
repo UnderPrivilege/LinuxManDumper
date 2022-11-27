@@ -2,7 +2,7 @@
 An experimental side project which uses a python file to dump functions defined in (a) man page(s) inside a structured JSON file.
 
 ## Usage
-1. To dump multiple man files, you must concatenate all the man pages using `zget` in the `/usr/share/man/manX` directory, where X is the manual section. In other cases, you can simply use one manual file from the corresponding manual section as input.
+1. To dump multiple man files, you must concatenate all the man pages using `zcat` in the `/usr/share/man/manX` directory, where X is the manual section. In other cases, you can simply use one manual file from the corresponding manual section as input.
 
 > Notice: this was only tested on section 3 of the linux manuals, use at your own risk on other manuals
 
